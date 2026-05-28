@@ -1,0 +1,63 @@
+/* .container {
+} */
+
+.cube {
+  position: relative;
+  /* right: 400px; */
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  /* position: absolute; */
+  transform: rotateX(15deg) rotate(15deg) rotateY(15deg) translate(45px,45px);
+  /* transform:  translate(120px,80px); */
+  transform-style: preserve-3d;
+  /* margin: 150px 50px; */
+  animation: anim 10s infinite ;
+  top: 0;
+}
+
+@keyframes anim {
+  0% {
+    transform:rotateX(15deg) rotate(15deg) rotateY(15deg) translate(45px,45px);
+  }
+  25% {
+    transform:rotateX(25deg) rotate(35deg) rotateY(25deg) translate(45px,45px);
+  }
+  50% {
+    transform:rotateX(35deg) rotate(40deg) rotateY(45deg) translate(45px,45px);
+  }
+  100% {
+    transform: rotateX(75deg) rotate(35deg) rotateY(25deg) translate(45px,45px);
+  }
+}
+
+.cube > div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.side1 {
+  background-color: aquamarine;
+  transform: rotateX(90deg) translateZ(100px) translate(0px, 100px);
+}
+
+.side2 {
+  background-color: aquamarine;
+  transform: rotateX(90deg) translateZ(-100px) translate(0px, 100px);
+}
+
+.side3 {
+  background-color: rgb(183, 13, 166);
+  transform: rotateY(90deg) translateZ(-100px) translate(-100px, 0px);
+}
+
+.side4 {
+  background-color: rgb(183, 13, 166);
+  transform: rotateY(90deg) translateZ(100px) translate(-100px, 0px);
+}
+
+.side5 {
+  background-color: rgb(40, 167, 68);
+  transform: translateZ(200px) translate(0px, 0px);
+}

@@ -1,0 +1,84 @@
+/* #sphere-container {
+  width: 300px;
+  height: 300px;
+  margin: 50px 0px;
+  perspective: 800px;
+  border-radius: 10px;
+  position: relative;
+  overflow: visible;
+  } */
+  
+  #sphere {
+  perspective: 800px;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  transform-style: preserve-3d;
+  /* margin: auto; */
+  background-color: blue;
+  transform: translate(145px,100px);
+  top: 50px;
+}
+
+.dot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: cyan;
+  box-shadow: 0 0 6px cyan;
+  will-change: transform;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* #sphere-container {
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  perspective: 1000px;
+  position: relative;
+  overflow: visible;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #0ff3, inset 0 0 30px #0ff2;
+}
+
+#sphere {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  top: 50px;
+  transform-style: preserve-3d;
+  transform-origin: center center;
+  animation: rotateSphere 10s linear infinite;
+  backface-visibility: visible; 
+
+
+.dot-wrapper {
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+
+.dot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: cyan;
+  box-shadow: 0 0 6px cyan;
+  pointer-events: none;
+  opacity: 0.9;
+  will-change: transform;
+}
+
+
+@keyframes rotateSphere {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+} */

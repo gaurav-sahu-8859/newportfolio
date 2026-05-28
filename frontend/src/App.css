@@ -1,0 +1,7 @@
+.collapse-layout {
+    width: calc(100% - 200px);
+}
+
+.nav-layout {
+    width: 100%;
+}

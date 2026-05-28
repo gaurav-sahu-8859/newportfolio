@@ -1,0 +1,32 @@
+.typewriter-container {
+  font-family: "Courier New", monospace;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #00ffff;
+  text-align: center;
+  margin-top: 60px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 1px;
+}
+
+.typewriter-text {
+  display: inline-block;
+  white-space: pre-wrap;
+  line-height: 1.6;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 40px #00ffff;
+}
+
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.2em;
+  margin-left: 4px;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  50.01%, 100% { opacity: 0; }
+}
