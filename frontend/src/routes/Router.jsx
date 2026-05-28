@@ -8,7 +8,7 @@ import Login from '../pages/auth/Login'
 import Signup from '../pages/auth/Signup'
 import MyStudents from '../pages/testimonials/MyStudents'
 import Auth from './Auth'
-import Reptile from '../assets/reptiles/Reptile'
+
 import Nopage from '../pages/nopage/Nopage'
 import Layout from './Layout'
 import ReptileCreature from '../assets/reptiles/ReptileCreature3'
@@ -48,7 +48,7 @@ let router = createBrowserRouter([
                 path: "/home",
                 element: <>
                     <Home />
-                    <Reptile />
+                 
                 </>
             },
             {
