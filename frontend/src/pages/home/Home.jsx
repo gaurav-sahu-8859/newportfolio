@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6"
 import avtar from "../../assets/react.svg"
 import CubeSphere from '../../assets/CubeSphere'
 import Sphere from '../../assets/Sphere'
-import Reptile from '../../assets/reptiles/Reptile'
+
 import CanvasBackground from '../../components/CanvasBackground'
 const socials = [
   { Icon: FaXTwitter, label: "X", href: "" },
